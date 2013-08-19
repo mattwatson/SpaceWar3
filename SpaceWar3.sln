@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame", "SpaceWar3\MonoGame.csproj", "{2DCED2D5-44B5-4ED4-9E67-A919321D53DB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{F23A3975-8E87-476A-BC0E-C7042FEB5A5C}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.txt = Readme.txt
@@ -20,16 +18,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2DCED2D5-44B5-4ED4-9E67-A919321D53DB}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{2DCED2D5-44B5-4ED4-9E67-A919321D53DB}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{2DCED2D5-44B5-4ED4-9E67-A919321D53DB}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{2DCED2D5-44B5-4ED4-9E67-A919321D53DB}.Debug|x86.ActiveCfg = Debug|x86
-		{2DCED2D5-44B5-4ED4-9E67-A919321D53DB}.Debug|x86.Build.0 = Debug|x86
-		{2DCED2D5-44B5-4ED4-9E67-A919321D53DB}.Release|Any CPU.ActiveCfg = Release|x86
-		{2DCED2D5-44B5-4ED4-9E67-A919321D53DB}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{2DCED2D5-44B5-4ED4-9E67-A919321D53DB}.Release|Mixed Platforms.Build.0 = Release|x86
-		{2DCED2D5-44B5-4ED4-9E67-A919321D53DB}.Release|x86.ActiveCfg = Release|x86
-		{2DCED2D5-44B5-4ED4-9E67-A919321D53DB}.Release|x86.Build.0 = Release|x86
 		{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU

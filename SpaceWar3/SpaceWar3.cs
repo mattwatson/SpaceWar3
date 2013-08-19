@@ -8,7 +8,6 @@ namespace SpaceWar3
     public class SpaceWar3 : Game
     {
         private GraphicsDeviceManager graphics;
-        private SpriteBatch spriteBatch;
 
         public SpaceWar3()
         {
@@ -34,7 +33,7 @@ namespace SpaceWar3
 
         protected override void Draw(GameTime gameTime)
         {
-            SpaceWar3.draw(gameTime)
+
 
             base.Draw(gameTime);
         }
