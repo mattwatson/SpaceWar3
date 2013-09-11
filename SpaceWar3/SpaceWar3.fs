@@ -29,5 +29,3 @@ type SpaceWar3() as this =
         g.GraphicsDevice.Clear(Color.CornflowerBlue)
 
         base.Draw(gameTime)
-
-
