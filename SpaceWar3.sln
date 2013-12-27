@@ -6,25 +6,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 		Readme.txt = Readme.txt
 	EndProjectSection
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SpaceWar3", "SpaceWar3F\SpaceWar3.fsproj", "{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SpaceWar3", "SpaceWar3\SpaceWar3.fsproj", "{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SpaceWar3.Tests", "SpaceWar3.Tests\SpaceWar3.Tests.fsproj", "{E20C02D1-9398-44AF-A87C-9E7583A5B474}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|Mixed Platforms = Debug|Mixed Platforms
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|Mixed Platforms = Release|Mixed Platforms
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7CF38F5C-50D6-4854-8918-8A5EF6AC37B3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
