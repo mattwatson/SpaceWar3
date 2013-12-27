@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>SpaceWar3.Tests</RootNamespace>
     <AssemblyName>SpaceWar3.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <Name>SpaceWar3.Tests</Name>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <DocumentationFile>bin\Debug\SpaceWar3.Tests.XML</DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -44,6 +45,9 @@
     <Compile Include="Fixtures.fs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\..\MonoGame\MonoGame.Framework\bin\WindowsGL\Debug\MonoGame.Framework.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <Private>True</Private>
@@ -56,9 +60,15 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <Reference Include="TickSpec">
-      <HintPath>..\packages\TickSpec.1.0.0.1\Lib\net40\TickSpec.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\TickSpec\TickSpec\bin\Debug\TickSpec.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpaceWar3F\SpaceWar3.fsproj">
+      <Name>SpaceWar3</Name>
+      <Project>{7cf38f5c-50d6-4854-8918-8a5ef6ac37b3}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

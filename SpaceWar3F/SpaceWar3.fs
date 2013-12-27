@@ -9,7 +9,9 @@ type SpaceWar3() as this =
 
     let g = new GraphicsDeviceManager(this)
 
-    do g.IsFullScreen <- true
+    do
+        g.CreateDevice()
+        g.ToggleFullScreen()
 
     let shouldExit = fun () ->
         GamePad.GetState(PlayerIndex.One).Buttons.Back = ButtonState.Pressed ||
