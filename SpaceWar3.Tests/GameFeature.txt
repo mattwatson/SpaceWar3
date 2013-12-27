@@ -1,6 +1,4 @@
 ﻿Feature: Main window
 
-Scenario 1: When the program is started
-	Given I am using the default configuration
-	When I start a new instance of the program
-	Then it should be full screen
+Scenario 1: A test
+    Then fail

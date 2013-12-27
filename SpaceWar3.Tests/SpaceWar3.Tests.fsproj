@@ -45,9 +45,6 @@
     <Compile Include="Fixtures.fs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="MonoGame.Framework">
-      <HintPath>..\..\MonoGame\MonoGame.Framework\bin\WindowsGL\Debug\MonoGame.Framework.dll</HintPath>
-    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <Private>True</Private>
@@ -64,7 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SpaceWar3F\SpaceWar3.fsproj">
+    <ProjectReference Include="..\SpaceWar3\SpaceWar3.fsproj">
       <Name>SpaceWar3</Name>
       <Project>{7cf38f5c-50d6-4854-8918-8a5ef6ac37b3}</Project>
       <Private>True</Private>
